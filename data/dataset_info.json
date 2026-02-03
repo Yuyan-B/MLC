@@ -5,36 +5,7 @@
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },
-  "dpo_data_safe_test": {
-    "file_name": "dpo_data_safe_test.json",
-    "ranking": true,
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "conversations",
-      "chosen": "chosen",
-      "rejected": "rejected"
-    }
-  },
-  "dpo-pku-saferlhf-multilin": {
-    "file_name": "multilin-pku-saferlhf-safe-train.json",
-    "ranking": true,
-    "formatting": "multilingual",
-    "columns": {
-      "prompt": "prompt",
-      "prompt_zh": "prompt_zh",
-      "prompt_ru": "prompt_ru",
-      "prompt_ja": "prompt_ja",
-      "prompt_vi": "prompt_vi",
-      "prompt_ko": "prompt_ko",
-      "prompt_fr": "prompt_fr",
-      "prompt_ar": "prompt_ar",
-      "prompt_es": "prompt_es",
-      "prompt_it": "prompt_it",
-      "prompt_ur": "prompt_ur",
-      "chosen": "chosen",
-      "rejected": "rejected"
-    }
-  },
+  
   "dpo-pku-saferlhf-alpaca3-8b-multilin": {
     "file_name": "multilin-pku-saferlhf-alpaca3-8b-train.json",
     "ranking": true,
